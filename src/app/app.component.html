@@ -1,0 +1,26 @@
+<style>
+  a {display:block; width:100%; padding:3px; float:left;}
+
+</style>
+
+<div>
+  <div style="width:20%; float:left; word-break: break-all;">
+    <a [routerLink]="['/viewencapsulation']" >view encapsulation </a>
+
+    <a [routerLink]="['/changeDetectionApp1']" >changeDetectionApp1 </a>
+
+    <a [routerLink]="['/observableSubject']" >observableSubject </a>
+
+    <a [routerLink]="['/d3Chart']" >d3Chart </a>
+
+    <a [routerLink]="['/d3ChartReal']" >d3ChartReal </a>
+
+
+  </div>
+  <div style="width:80%; float:left">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+
+
